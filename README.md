@@ -58,7 +58,7 @@ Aquest projecte explora el desenvolupament de serveis web escalables amb Node.js
 ## Objectius
 
 ### Objectiu General
-Dissenyar i implementar una API RESTful modular i documentada per gestionar usuaris, plantes i ítems, garantint escalabilitat i mantenibilitat.
+Dissenyar i implementar una API RESTful funcional, modular i documentada per gestionar usuaris, plantes i ítems, garantint escalabilitat i mantenibilitat.
 
 ### Objectius Específics
 
