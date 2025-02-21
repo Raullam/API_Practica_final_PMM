@@ -85,7 +85,7 @@ Dissenyar i implementar una API RESTful funcional, modular i documentada per ges
 - **MySQL**: Base de dades relacional.
 - **Swagger**: Generació automàtica de documentació.
 - **dotenv**: Gestió de variables d'entorn.
-- **CORS i Body-parser**: Middleware per gestionar sol·licituds.
+- **CORS i Body-parser**: Middlewares per gestionar sol·licituds.
 
 ### Estructura del Projecte
 
