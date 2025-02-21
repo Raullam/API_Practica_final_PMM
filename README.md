@@ -42,7 +42,7 @@
 ### Resum/Objectius
 Aquest treball presenta el disseny, la implementació i la documentació d'una API RESTful desenvolupada amb Node.js i Express per a la gestió d'una aplicació de plantes tipus joc. L'API permet l'administració d'usuaris, plantes i ítems. 
 
-Es planteja continuar aquest projecte per al treball final, integrant-lo amb serveis al núvol i implementant autenticació per mitjà de tokens. A més, es documenta mitjançant Swagger, accessible a:  
+Es planteja continuar aquest projecte per al treball final, integrant-lo amb serveis al núvol i implementant autenticació per mitjà de tokens. A més, esta documentat mitjançant Swagger, accessible a l'enllaç:  
 
 [http://localhost:3000/api-docs/](http://localhost:3000/api-docs/)
 
