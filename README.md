@@ -1,6 +1,6 @@
 # Desenvolupament d'una API RESTful per a la Gestió d'una Aplicació de Plantes
 
-## C.F.G.S DAM
+## C.F.G.S DAM CIFP PAU CASESNOVES 
 
 **Realització API RESTful - Programació multimèdia i dispositius mòbils**
 
