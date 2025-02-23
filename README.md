@@ -171,10 +171,4 @@ El projecte demostra la viabilitat de Node.js i Express per a APIs RESTful. L'ar
 - Desplegament a AWS o Heroku.
 - Desenvolupament d'un frontend.
 
-## Agraïments
 
-Agraïments a [nom del tutor] pel suport i a la comunitat de codi obert.
-
-## Annexos
-
-Codi font: [GitHub](https://github.com/Raullam/API_Practica_final_PMM)
