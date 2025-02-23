@@ -1,45 +1,45 @@
-# Desenvolupament d'una API RESTful per a la Gestió d'una Aplicació de Plantes
+# Desenvolupament d'una API RESTful per a la Gestió d'una Aplicació de Plantes 🌱
 
-## C.F.G.S DAM CIFP PAU CASESNOVES 
+## C.F.G.S DAM CIFP PAU CASESNOVES 🎓
 
-**Realització API RESTful - Programació multimèdia i dispositius mòbils**
+**Realització API RESTful - Programació multimèdia i dispositius mòbils 💻📱**
 
-**Curs:** 2n C.F.G.  
-**Data:** 21/02/2025  
-**Alumne:** Raül Lama Martorell  
-
----
-
-## Índex
-
-1. [Memòria Tècnica](#memòria-tècnica)
-   - [Resum/Objectius](#resumobjectius)
-2. [Introducció](#introducció)
-3. [Objectius](#objectius)
-   - [Objectiu General](#objectiu-general)
-   - [Objectius Específics](#objectius-específics)
-4. [Metodologia](#metodologia)
-5. [Descripció Tècnica](#descripció-tècnica)
-   - [Tecnologies Utilitzades](#tecnologies-utilitzades)
-   - [Estructura del Projecte](#estructura-del-projecte)
-   - [Arquitectura de l'API](#arquitectura-de-lapi)
-   - [Base de Dades](#base-de-dades)
-   - [Documentació amb Swagger](#documentació-amb-swagger)
-6. [Instal·lació i Configuració](#instal·lació-i-configuració)
-   - [Requisits previs](#requisits-previs)
-   - [Instal·lació de dependències](#instal·lació-de-dependències)
-   - [Configuració de variables d'entorn](#configuració-de-variables-dentorn)
-7. [Resultats](#resultats)
-8. [Conclusions](#conclusions)
-9. [Treball Futur](#treball-futur)
-10. [Agraïments](#agraïments)
-11. [Annexos](#annexos)
+**Curs:** 2n C.F.G. 📅  
+**Data:** 21/02/2025 📅  
+**Alumne:** Raül Lama Martorell 👨‍🎓  
 
 ---
 
-## Memòria Tècnica
+## Índex 📑
 
-### Resum/Objectius
+1. [Memòria Tècnica](#memòria-tècnica) 📝
+   - [Resum/Objectius](#resumobjectius) 🎯
+2. [Introducció](#introducció) 📖
+3. [Objectius](#objectius) 🎯
+   - [Objectiu General](#objectiu-general) 🎯
+   - [Objectius Específics](#objectius-específics) 🎯
+4. [Metodologia](#metodologia) ⚙️
+5. [Descripció Tècnica](#descripció-tècnica) 🛠️
+   - [Tecnologies Utilitzades](#tecnologies-utilitzades) 🛠️
+   - [Estructura del Projecte](#estructura-del-projecte) 🗂️
+   - [Arquitectura de l'API](#arquitectura-de-lapi) 🏗️
+   - [Base de Dades](#base-de-dades) 💾
+   - [Documentació amb Swagger](#documentació-amb-swagger) 📜
+6. [Instal·lació i Configuració](#instal·lació-i-configuració) ⚙️
+   - [Requisits previs](#requisits-previs) 📋
+   - [Instal·lació de dependències](#instal·lació-de-dependències) 📦
+   - [Configuració de variables d'entorn](#configuració-de-variables-dentorn) ⚙️
+7. [Resultats](#resultats) ✅
+8. [Conclusions](#conclusions) 📝
+9. [Treball Futur](#treball-futur) 🔮
+10. [Agraïments](#agraïments) 🙏
+11. [Annexos](#annexos) 📎
+
+---
+
+## Memòria Tècnica 📝
+
+### Resum/Objectius 🎯
 Aquest treball presenta el disseny, la implementació i la documentació d'una API RESTful desenvolupada amb Node.js i Express per a la gestió d'una aplicació de plantes tipus joc. L'API permet l'administració d'usuaris, plantes i ítems. 
 
 L'api esta documentada mitjançant Swagger, accessible a l'enllaç:  
@@ -49,18 +49,18 @@ L'api esta documentada mitjançant Swagger, accessible a l'enllaç:
 
 Es planteja continuar aquest projecte per al treball final, integrant-lo amb serveis al núvol i implementant autenticació per mitjà de tokens.
 
-## Introducció
+## Introducció 📖
 
 Les aplicacions modernes necessiten APIs robustes i ben documentades per facilitar la interacció entre el frontend i el backend. Aquest projecte proposa el desenvolupament d'una API RESTful per a la gestió d'un joc de plantes, amb atributs com atac, defensa i nivell, així com la compra d'ítems amb BTC.
 
 Aquest projecte explora el desenvolupament de serveis web escalables amb Node.js, Express, MySQL i Swagger.
 
-## Objectius
+## Objectius 🎯
 
-### Objectiu General
+### Objectiu General 🎯
 Dissenyar i implementar una API RESTful funcional, modular i documentada per gestionar usuaris, plantes i ítems, garantint escalabilitat i mantenibilitat.
 
-### Objectius Específics
+### Objectius Específics 🎯
 
 - Implementar un sistema de rutes modular.
 - Integrar una base de dades MySQL.
@@ -68,7 +68,7 @@ Dissenyar i implementar una API RESTful funcional, modular i documentada per ges
 - Garantir seguretat mitjançant variables d'entorn.
 - Provar el funcionament mitjançant Postman i altres eines.
 
-## Metodologia
+## Metodologia ⚙️
 
 - **Anàlisi de Requisits:** Identificació d'entitats i operacions CRUD.
 - **Disseny:** Arquitectura modular amb separació de responsabilitats.
@@ -76,9 +76,9 @@ Dissenyar i implementar una API RESTful funcional, modular i documentada per ges
 - **Documentació:** Integració de Swagger.
 - **Proves:** Verificació d'endpoints amb Postman.
 
-## Descripció Tècnica
+## Descripció Tècnica 🛠️
 
-### Tecnologies Utilitzades
+### Tecnologies Utilitzades 🛠️
 
 - **Node.js**: Entorn d'execució per JavaScript.
 - **Express**: Framework per a API RESTful.
@@ -87,7 +87,7 @@ Dissenyar i implementar una API RESTful funcional, modular i documentada per ges
 - **dotenv**: Gestió de variables d'entorn.
 - **CORS i Body-parser**: Middlewares per gestionar sol·licituds.
 
-### Estructura del Projecte
+### Estructura del Projecte 🗂️
 
 ```bash
 📂 api-plantes
