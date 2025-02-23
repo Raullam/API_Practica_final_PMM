@@ -40,7 +40,7 @@
 ## Memòria Tècnica 📝
 
 ### Resum/Objectius 🎯
-Aquest treball presenta el disseny, la implementació i la documentació d'una API RESTful desenvolupada amb Node.js i Express per a la gestió d'una aplicació de plantes tipus joc. L'API permet l'administració d'usuaris, plantes i ítems. 
+Aquest treball presenta el disseny, la implementació i la documentació d'una API RESTful desenvolupada amb Node.js i Express per a la gestió d'una aplicació de plantes tipus joc. Demoment l'API permet l'administració d'usuaris, plantes i ítems aixi com les peticions per a un petit joc d'exemple.
 
 L'api esta documentada mitjançant Swagger, accessible a l'enllaç:  
 
