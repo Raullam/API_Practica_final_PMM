@@ -11,7 +11,7 @@ const swaggerOptions = {
       description: 'Documentación de la API de la aplicación de plantas',
     },
   },
-  apis: ['./index2.js', './routes/*.js'], // Incluimos las rutas de la carpeta routes
+  apis: ['./app.js', './routes/*.js'], // Incluimos las rutas de la carpeta routes
 }
 
 // Generamos la documentación
